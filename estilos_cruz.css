@@ -1,0 +1,151 @@
+html, body, h1, h2, h3, h4, h5, h6, p, ol, ul, code, address, variable, form, fieldset, blockquote, figure {
+
+
+	padding: 0;
+	margin: 0;
+	font-size: 100%;
+	font-weight: normal;
+} 
+
+table {
+
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td, th, cpation {
+
+	font-weight: normal;
+	text-align: left;
+}
+
+img, fieldset {
+
+	border: 0;
+
+}
+
+ol {
+
+	padding-left: 1.4em; list-style: decimal;
+}
+
+ul {
+
+	padding-left: 1.4em; list-style: square;
+}
+
+q:before, q:after {
+
+	content: '';
+}
+
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+ 
+body{
+
+	font-size: 100%;
+
+}
+
+@font-face{
+
+	font-family: 'LTitulo';
+	src: url('Muthiara.otf');
+}
+@font-face{
+
+	font-family: 'LSubitulo';
+	src: url('Quotable.otf');
+}
+
+h1{
+
+	font: normal 3em 'LTitulo'; 
+	background: -webkit-linear-gradient(top, #232771, #7CACD5); 
+	background: -ms-linear-gradient(top, #232771, #7CACD5);
+	width: 40%;
+	border-radius: 15px;
+	text-align: center; 
+	margin: 15px auto;
+	text-shadow: #424242 4px 4px 2px; 
+	
+	
+}
+
+h2{
+
+	font: bold 1.5em 'LSubitulo';
+	margin-left: 110px;
+	width: 250px;
+
+
+}
+section{
+
+	width: 100%;
+	margin: 10px auto;
+	
+
+}
+
+
+#f1{
+
+	float: left;
+	margin-left:  83px;
+}
+
+#f2{
+
+	float: left;
+	margin-left: 83px; 
+
+
+}
+
+#f3{
+
+	float: left;
+	margin-left: 83px;
+}
+figure img{
+	
+
+
+	margin-left: 30px ;
+	padding: 4px;
+	background: #999 ;
+	border-radius: 20px;
+	-webkit-transition: -webkit-transform 0.3s ease-in-out 0.1s;
+	-ms-transition: -ms-transform 0.3s ease-in-out 0.1s;
+
+}
+
+figure img:hover{
+
+	-webkit-transform: scale(1.2);
+
+}
+figcaption{
+
+	width: 316px;
+	font: bold 1em 'LSubitulo';
+	font-size:1.3em;
+	text-align: center;
+	
+}
+
+
+footer{
+
+	clear:both;
+	width: 316px;
+	padding-left: 113px;
+	padding-top: 100px;
+
+
+}
